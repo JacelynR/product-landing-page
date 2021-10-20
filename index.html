@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Product Landing Page</title>
+
+    <link rel="stylesheet" href="./style.css">     
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+    />
+</head>
+        
+        <body>
+          <div id="pageWrapper">
+          <header id="header">
+              <div class="logo">
+                <img  id="header-img" 
+                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStNN9DbktZOFmAx1rnaqPJEiLbmpChrvmQHQ&usqp=CAU" 
+                      alt="volleyball icon"/>
+              </div>
+            
+         <h1>The Volleyball Store</h1>
+        
+              <nav id="nav-bar">
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#how-it-works">How It Works</a>
+                <a class="nav-link" href="#pricing">Pricing</a>      
+            </nav>
+            </header>
+          </div>
+          
+          
+         <div class="container"></div>
+        
+        <section id="main">
+          <p><b>Professionally-Made Volleyball Equipment</b></p>
+          <form id='form' method="post" action="https://www.freecodecamp.com/email-submit">
+            <input id="email"
+                   name="email"
+                   type="email"
+                   placeholder="  Please enter your email address"
+                   required/>
+            <input id="submit"
+                   type="submit"
+                   value="Enter"
+                   class="button"/> 
+          </form>  
+        </section>
+        
+        <div id="container">
+          <div id="features">
+          <section id="specs">
+            <div class="list">
+              <div class="icon"><i class="fas fa-3x fa-check-square"></i></div>
+              <div class="mainpts">
+                <h2>Quality Materials</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Maecenas pulvinar augue eu consectetur porta. Suspendisse 
+                    eget accumsan massa.
+              </p>
+            </div>
+           </div>
+          <div class="list">
+              <div class='icon'><i class="fa fa-3x fa-truck"></i></div>
+              <div class="mainpts">
+                <h2>Domestic and International Shipping</h2>
+                <p>Praesent et massa at diam congue dapibus. Curabitur eros magna, 
+                  interdum nec risus vel, maximus aliquam sapien. 
+              </p>
+            </div>
+           </div>
+            <div class="list">
+                <div class="icon"><i class="fas fa-3x fa-phone"></i></div>
+                <div class="mainpts">
+                  <h2>Great Customer Service</h2>
+                  <p>
+                   n suscipit quam turpis, et euismod sem ultrices posuere. 
+                    Vestibulum sodales rutrum ante vitae rhoncus. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+                            <!--HOW IT WORKS SECTION -->
+          <section id="how-it-works">
+            <div id="HowitWorks">
+            <iframe id="video"
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/vIxt8PI-5Jk" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"             allowfullscreen></iframe>
+            </div>
+          </section>
+          
+          <section id='pricing'>
+            <div class="products" id="equipment">
+              <div class="choice">Volleyball Equipment</div>
+              <h2>Starting from $100</h2>
+              <ul>
+                <li>Lorem ipsum dolor</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Lorem ipsum dolor sit</li>
+              </ul>
+              <button class="btn">Select</button>
+            </div>
+              
+            <div class="products" id="shoes">
+              <div class="choice">Volleyball Shoes</div>
+              <h2>Starting from $50</h2>
+              <ul>
+                <li>Lorem ipsum dolor</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Lorem ipsum dolor sit</li>
+              </ul>
+              <button class="btn">Select</button>
+            </div>
+              
+            <div class="products" id="accessories">
+              <div class="choice">Volleyball Accessories</div>
+              <h2>Starting from $10</h2>
+              <ul>
+                <li>Lorem ipsum dolor</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Lorem ipsum dolor sit</li>
+              </ul>
+              <button class="btn">Select</button>
+            </div>
+          </section>
+          </div>
+          
+        </body>
+          
+         <!--------- FOOTER SECTION ------->
+        
+        <footer>
+            <span>Copyright 2020 | The Volleyball Store</span>
+          </footer>
+         
+          
+        
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        
+        </div>
+    
+</body>
+</html>

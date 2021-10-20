@@ -1,0 +1,250 @@
+/* GLOBAL STYLING */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DCDCDC;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  padding-left: 56px;
+  color: black;
+}
+
+a {
+  color: #001933;
+  text-decoration: none;
+}
+
+#main p {
+  font-size: 39px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0 25px;
+  height: 42px;
+  font-size: 1em;
+  font-weight: 400;
+  border: 3px #000000 solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.list {
+  display: flex;
+}
+
+
+  /* Header */
+#header-img {
+  float: left;
+  position: fixed;
+  padding: 0;
+  width:50px;
+  height: 50px;
+  display: flex;
+  margin-left: 5px;
+  @media (max-width: 568px) {
+    position: relative;
+  }
+}
+
+
+ /* The Navigation Bar */
+
+#nav-bar {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  min-height: 75px;
+}
+
+nav {
+  position: fixed;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/*Inside the Navbar */
+
+#nav-bar a {
+  float: right;
+  display: block;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Subscribe to email*/
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  height: 150px;
+  margin: 80px 40px 40px 40px;
+}
+
+    /*  EMAIL  */
+
+#email {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px
+}
+
+#submit {
+  margin-top: 30px;
+  width: 80px;
+  height: 40px;
+  border-radius: 9px;
+}
+
+/***Specs Section***/
+#specs {
+  margin-top: 30px;
+}
+
+#specs .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
+}
+
+#specs .mainpts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  #specs .mainpts {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  #specs {
+    margin-top: 0;
+  }
+}
+
+  /* HOW IT WORKS SECTION */
+#how-it-works {
+  display: flex;
+  margin: 60px 0px 60px 0px;
+  justify-content: center;
+}
+
+/* PRICING SECTION */
+#pricing {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/3);
+  align-items: center;
+  margin: 15px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+
+.products > .choice {
+  background-color: #191970;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 650;
+}
+
+.products > h2 {
+  margin-top: 16px;
+}
+
+.products > ul {
+  margin: 15px 0;
+}
+
+.products > ul > li {
+  padding: 5px 0;
+}
+
+.products > button {
+  border: 0px;
+  margin: 10px 0;
+  background-color: #0000CD;
+  color: white;
+  font-weight: 550;
+}
+
+.products > button:hover {
+  background-color: #778899;
+  transition: background-color 0.5s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .products {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+
+footer {
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
